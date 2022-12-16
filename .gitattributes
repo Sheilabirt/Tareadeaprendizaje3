@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.MP3 filter=lfs diff=lfs merge=lfs -text
+*.JPG filter=lfs diff=lfs merge=lfs -text
+*.SVG filter=lfs diff=lfs merge=lfs -text
+*.MP3[[:space:]]Audio[[:space:]]File[[:space:]](VLC)[[:space:]](.mp3) filter=lfs diff=lfs merge=lfs -text
